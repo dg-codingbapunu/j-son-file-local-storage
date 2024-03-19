@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <title>objects practice</title>
   </head>
   <body>
     <script>
-      //   let product = {
-      //     company: "banana",
-      //     "item-name": "jins paint",
-      //     price: 890,
-      //     displayCompany: function () {
-      //       console.log(`name of the product is ${this.company}`);
-      //     },
-      //   };
-
-      //   product.displayCompany();
-      console.log("this is bapun".replace("bapun", "bapunu sir"));
+      let product = {
+        name: "jeans",
+        size: "s",
+        fit: "slim Fit",
+      };
+      let copyProduct = product;
+      console.log(product);
+      copyProduct.size = "m";
+      console.log(product);
+      copyProduct.fit = "regular Fit";
+      console.log(product);
+      copyProduct.name = "shirt";
+      console.log(product);
     </script>
   </body>
 </html>
