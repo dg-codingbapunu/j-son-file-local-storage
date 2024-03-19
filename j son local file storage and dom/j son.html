@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let product = {
+        name: "bapunu",
+        price: 660,
+        rating: {
+          stars: 5.0,
+          noOfReviews: 880,
+        },
+      };
+      console.log(product);
+      let str = JSON.stringify(product);
+      console.log(str);
+      let reverse = JSON.parse(str);
+      console.log(reverse);
+    </script>
+  </body>
+</html>
