@@ -7,22 +7,12 @@
   </head>
   <body>
     <script>
-      let product = {
-        name: "bapunu",
-        price: 660,
-        rating: {
-          stars: 5.0,
-          noOfReviews: 880,
-        },
-      };
-
-      //   localStorage.setItem("name", "bapunu");
-      //   console.log(localStorage.getItem("name"));
-
-      //   localStorage.setItem("product", JSON.stringify(product));
-      console.log(localStorage.getItem("product"));
-      let product2 = JSON.parse(localStorage.getItem("product"));
-      console.log(product2);
+      let myDate = new Date();
+      console.log(myDate.getDate);
+      console.log(myDate.getFullYear);
+      console.log(myDate.getTime);
+      console.log(myDate.getTime);
+      console.log(myDate.getMilliseconds);
     </script>
   </body>
 </html>
