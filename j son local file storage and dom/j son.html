@@ -15,11 +15,14 @@
           noOfReviews: 880,
         },
       };
-      console.log(product);
-      let str = JSON.stringify(product);
-      console.log(str);
-      let reverse = JSON.parse(str);
-      console.log(reverse);
+
+      //   localStorage.setItem("name", "bapunu");
+      //   console.log(localStorage.getItem("name"));
+
+      //   localStorage.setItem("product", JSON.stringify(product));
+      console.log(localStorage.getItem("product"));
+      let product2 = JSON.parse(localStorage.getItem("product"));
+      console.log(product2);
     </script>
   </body>
 </html>
